@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Georgia;
+  color: #275557;  /* Sötét: #275557, Közepes: #89f5c0, Világos: #ffffff */
+}
+
+body {
+  background-color: fuchsia;  
+}
+a {
+  text-decoration: none;
+}
+.galery {
+	width: 100%;
+	height: 200px;
+	background-color: aqua;
+	text-align: center;
+	padding-top: 300px;
+}
+
+#header {
+  background-color: #89f5c0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#logo {
+  width: 8%;
+  margin-left: 10%;
+  margin-right: 18%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#first-menu {
+  margin-right: 2%;
+  font-weight: 600;
+}
+#second-menu {
+  margin-right: 2%;
+  font-weight: 600;
+}
+#third-menu {
+  margin-right: 2%;
+  font-weight: 600;
+}
+#fourth-menu {
+  margin-right: 2%;
+  font-weight: 600;
+}
+#fifth-menu {
+  margin-right: 2%;
+  font-weight: 600;
+}
+#sixth-menu {
+	font-weight: 600;	
+}
+
+#banner {
+  background-color: #275557;
+	width: 100%;
+  height: 500px;
+}
+#page-banner {
+  
+}
+
+#visualization {
+  background-color: chartreuse;
+  text-align: center;
+  padding: 40px;
+}
+#visualization-description {
+	padding: 20px;
+	font-weight: 600;
+}
+
+#areas {
+  background-color: cornflowerblue;
+	text-align: center;
+  padding-top: 40px;
+}
+#areas-description {
+	padding: 60px;
+	text-align: left;
+}
+
+
+#vision-therapy {
+  background-color: blueviolet;
+	padding-top: 40px;
+	text-align: center;
+}
+#vision-therapy-description {
+	padding: 60px;
+	font-weight: 600;
+}
+
+#our-staff {
+  background-color: deeppink;
+	padding-top: 40px;
+	text-align: center;
+}
+#our-staff-description {
+	padding: 60px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: left;
+	font-weight: 600;
+}
+.staff-image {
+	width: 480px;
+	height: 600px;
+	display: inline-block;
+	border-radius: 5%;
+}
+.staff-writing {
+	display: inline-block;
+	width: 600px;
+	padding-left: 60px;
+	padding-right: 80px;
+	position: relative; top: -40px;
+}
+.staff-text {
+	padding-top: 40px
+	
+}
+#staff2 {
+	padding-top: 100px;
+}
+#staff3 {
+	padding-top: 100px;
+}
+.staff-button {
+	margin-top: 40px;
+	background-color: #89f5c0;
+	width: 110px;
+	text-align: center;
+	border-radius: 5%;
+	display: block;
+}
+
+#opinions { 
+  background-color: burlywood;
+	padding-top: 50px;
+	text-align: center;
+}
+#opinions-description {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+.customer {
+		display: inline-block;
+}
+.customer-image {
+	width: 200px;
+	height: 250px;
+	border-radius: 50%;
+}
+.customer-writing {
+		width: 300px;
+		margin: 10px;
+}
+.customer-text {
+	padding-top: 20px;
+}
+
+#connection {
+  background-color: aqua;
+	padding-top: 40px;
+	text-align: center;
+	font-weight: 600;
+}
+#connection-description {
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+#map {
+	border-radius: 5%;
+	display: inline-block;
+}
+#connection-writing {
+	display: inline-block;
+	position: relative; top: -30px;
+}
+.connection-text {
+	margin-left: 50px;
+	text-align: left;
+	font-size: 1.25em;
+}
+#enterprise-name {
+	font-size: 1.50em;
+	padding-bottom: 60px;
+}
+#adress {
+	padding-bottom: 30px;
+}
+#email {
+	padding-bottom: 30px;	
+}
+#phone-number {
+	padding-bottom: 30px;
+}
+
+#footer {
+  background-color: cadetblue;
+	height: 200px;
+	padding-top: 200px;
+	text-align: center;
+	
+}
