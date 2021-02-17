@@ -102,23 +102,23 @@ a {
 	text-align: center;
 }
 #our-staff-description {
-	padding: 60px;
+	padding: 80px;
 	padding-top: 80px;
 	padding-bottom: 80px;
 	text-align: left;
 	font-weight: 600;
 }
 .staff-image {
-	width: 480px;
-	height: 600px;
+	width: 400px;
+	height: 500px;
 	display: inline-block;
 	border-radius: 5%;
 }
 .staff-writing {
 	display: inline-block;
 	width: 600px;
-	padding-left: 60px;
-	padding-right: 80px;
+	padding-left: 80px;
+	padding-right: 35px;
 	position: relative; top: -40px;
 }
 .staff-text {
