@@ -3,32 +3,52 @@
   padding: 0;
   border: 0;
   font-family: Georgia;
-  color: #275557;  /* Sötét: #275557, Közepes: #89f5c0, Világos: #ffffff */
+  color: #4e7082;  /* Sötét: #275557, Közepes: #89f5c0, Világos: #ffffff */
 }
 
 body {
-  background-color: fuchsia;  
+  background-color: #f7fcfc;  
 }
 a {
   text-decoration: none;
+	font-size: 1.10em;
 }
-.galery {
-	width: 100%;
-	height: 200px;
-	background-color: aqua;
-	text-align: center;
-	padding-top: 300px;
+.pages {
+	padding: 15%;
+	padding-top: 5%;
+	padding-bottom: 0%;
+}
+h1 {
+	font-size: 2.00em;
+}
+.h1-main-page {
+	font-size: 3.00em;
+}
+h2 {
+	font-size: 1.25em;
+}
+h3 {
+	font-size: 1.05em;
+	margin-top: 0.5%;
+	font-weight: normal;
+}
+p {
+	font-size: 1.05em;
+	line-height: 1.50em;
+}
+.drop-menu-name {
+	font-size: 1.10em;
 }
 
 #header {
-  background-color: #89f5c0;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  background-color: #D7E7EA;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #logo {
   width: 8%;
   margin-left: 10%;
-  margin-right: 15%;
+  margin-right: 10%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -92,7 +112,7 @@ a {
 
 
 #banner {
-  background-color: #275557;
+  background-color: #D7E7EA;
 	width: 100%;
   height: 500px;
 }
@@ -101,17 +121,17 @@ a {
 }
 
 #visualization {
-  background-color: chartreuse;
+  background-color: #ffebeb;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
 }
 #visualization-description {
-	padding: 20px;
-	font-weight: 600;
+	margin-top: 40px;
+	text-align: center;
 }
 
 #areas {
-  background-color: cornflowerblue;
+  background-color: #ffebeb;
 	text-align: center;
   padding-top: 40px;
 }
@@ -122,7 +142,7 @@ a {
 
 
 #vision-therapy {
-  background-color: blueviolet;
+  background-color: #ffebeb;
 	padding-top: 40px;
 	text-align: center;
 }
@@ -131,61 +151,129 @@ a {
 	font-weight: 600;
 }
 
-#our-staff {
-  background-color: deeppink;
-	padding-top: 40px;
+#main-staff-page {
+	width: 90%;
+	margin-top: 4%;
+	margin-left: 3%;
+	margin-bottom: 5%;
+}
+.main-staff-content {
+	margin-top: 5%;
+}
+.main-staff-writing {
+	display: inline-block;
+	width: 50%;
+	margin-left: 5%;
+	position: relative; top: -30px;	
+}
+.main-staff-image {
+	width: 32%;
+	height: 40%;
+	display: inline-block;
+	border-radius: 5%;
+}
+#main-staff-image1 {
+	margin-left: 9%;
+}
+#main-staff-image3 {
+	margin-left: 9%;
+}
+#staff-adress {
 	text-align: center;
 }
-#our-staff-description {
-	padding: 80px;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	text-align: left;
-	font-weight: 600;
+.staff-content {
+	margin-top: 80px;
 }
 .staff-image {
-	width: 400px;
-	height: 500px;
+	width: 44%;
+	height: 55%;
 	display: inline-block;
 	border-radius: 5%;
 }
 .staff-writing {
 	display: inline-block;
-	width: 600px;
-	padding-left: 80px;
-	padding-right: 35px;
-	position: relative; top: -40px;
+	width: 50%;
+	margin-left: 5%;
+}
+#main-bekesi-writing {
+	margin-left: 9%;
+}
+#main-staff-image2 {
+	margin-left: 5%;
 }
 .staff-text {
-	padding-top: 40px
-	
+	margin-top: 5%;
 }
-#staff2 {
-	padding-top: 100px;
+.staff-writing2 {
+	margin-top: 2%;
 }
-#staff3 {
-	padding-top: 100px;
+#staff-paragraph6 {
+	margin-top: 2%;
 }
+#staff-paragraph7 {
+	margin-top: 2%;
+}
+#staff-paragraph8 {
+	margin-top: 2%;
+}
+#staff-paragraph9 {
+	margin-top: 4%;
+}
+#staff-paragraph10 {
+	margin-top: 2%;
+}
+.staff-ul {
+	margin-left: 3%;
+	margin-top: 1%;
+}
+#bekesi-writing {
+	margin-left: 0%;
+}
+#bekesi-image {
+	margin-left: 5%;
+}
+.staff-h3 {
+	margin-top: 3%;
+}
+#staff-paragraph18 {
+	margin-top: 3%;
+}
+#staff-paragraph19 {
+	margin-top: 3%;
+}
+#staff-paragraph20 {
+	margin-top: 3%;
+}
+
+
 .staff-button {
-	margin-top: 40px;
-	background-color: #89f5c0;
-	width: 110px;
+	margin-top: 7%;
+	padding: 1%;
+	font-size: 1.60em;
+	font-weight: bold;
+	background-color: #d7e7ea;
+	width: 20%;
+	margin-left: 40%;
 	text-align: center;
 	border-radius: 5%;
 	display: block;
 }
 
 #opinions { 
-  background-color: burlywood;
-	padding-top: 50px;
+  padding-top: 1%;
 	text-align: center;
 }
+#opinions-adress {
+	padding-right: 20px;
+}
 #opinions-description {
-	padding-top: 60px;
-	padding-bottom: 50px;
+	width: 90%;
+	margin-top: 3%;
+	margin-left: 5%;
 }
 .customer {
-		display: inline-block;
+	display: inline-block;
+	padding: 3%;
 }
 .customer-image {
 	width: 200px;
@@ -201,14 +289,13 @@ a {
 }
 
 #connection {
-  background-color: aqua;
-	padding-top: 40px;
+  padding-top: 5%;
 	text-align: center;
-	font-weight: 600;
+	font-weight: bold;
 }
 #connection-description {
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding-top: 5%;
+	padding-bottom: 2%;
 }
 #map {
 	border-radius: 5%;
@@ -225,7 +312,7 @@ a {
 }
 #enterprise-name {
 	font-size: 1.50em;
-	padding-bottom: 60px;
+	padding-bottom: 5%;
 }
 #adress {
 	padding-bottom: 30px;
@@ -237,10 +324,230 @@ a {
 	padding-bottom: 30px;
 }
 
+table {
+	width: 80%;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 4%;
+	margin-left: 10%;
+}
+td {
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+caption {
+	margin-bottom: 4%;
+	font-size: 2.00em;
+}
+.time {
+	width: 55%;
+}
+#opening-text {
+	text-align: center;
+	margin-bottom: 5%
+}
+#opening-text1 {
+	margin-bottom: 2%;
+}
+
+#prices {
+	margin-top: 5%;
+}
+#prices-caption {
+	margin-bottom: 1%;
+}
+#prices-table {
+	text-align: left;
+}
+#prices-table-text {
+	text-align: center;
+}
+.main {
+	font-size: 1.25em;
+	padding-top: 5%;
+}
+.property {
+	font-size: 1.10em;
+	font-weight: normal;
+}
+#prices-text {
+	width: 74%;
+	margin-left: 13%;
+}
+.prices-paragraph {
+	margin-top: 3%;
+}
+
 #footer {
-  background-color: cadetblue;
+  background-color: #D7E7EA;
 	height: 200px;
 	padding-top: 200px;
 	text-align: center;
+	margin-top: 10%;
 	
+}
+
+.vt-page-paragraph {
+	margin-top: 25px;
+}
+.vt-page-adress {
+	margin-top: 70px;
+}
+#vt-page-paragraph1 {
+	margin-top: 50px;
+}
+#vt-page-paragraph7 {
+	margin-top: 40px;
+}
+#vt-page-paragraph9 {
+	margin-top: 40px;
+}
+#vt-page-paragraph12 {
+	margin-top: 10px;
+}
+#vt-page-paragraph14 {
+	margin-top: 10px;
+}
+#vt-page-paragraph15 {
+	margin-top: 10px;
+}
+#vt-page-paragraph16 {
+	margin-top: 10px;
+}
+#vt-page-paragraph17 {
+	margin-top: 40px;
+}
+#vt-page-paragraph18 {
+	margin-top: 40px;
+}
+#vt-page-paragraph24 {
+	margin-top: 40px;
+}
+#vt-page-paragraph31 {
+	margin-top: 60px;
+}
+#vt-page-paragraph32 {
+	font-weight: 600;
+	font-size: 0.90em;
+}
+
+
+.vt-for-children-paragraph {
+	margin-top: 25px;
+}
+.vt-for-children-adress {
+	margin-top: 70px;
+}
+#vt-for-children-ul {
+	margin-top: 35px;
+	margin-left: 40px;
+}
+.children-li {
+	margin-top: 30px;
+}
+#vt-for-children-paragraph1 {
+	margin-top: 40px;
+}
+#vt-for-children-paragraph3 {
+	margin-top: 40px;
+}
+#vt-for-children-paragraph9 {
+	margin-top: 80px;
+}
+
+.vt-for-adults-paragraph {
+	margin-top: 25px;
+}
+.vt-for-adults-adress {
+	margin-top: 70px;
+}
+#vt-for-adults-ul {
+	margin-top: 35px;
+	margin-left: 40px;
+}
+.adults-li {
+	margin-top: 30px;
+}
+#vt-for-adults-paragraph1 {
+	margin-top: 40px;
+}
+#vt-for-adults-paragraph3 {
+	margin-top: 40px;
+}
+#vt-for-adults-paragraph8 {
+	font-weight: 600;
+	font-size: 0.90em;
+}
+#vt-for-adults-content3 {
+	margin-top: 70px;
+}
+
+.vt-for-athletes-paragraph {
+	margin-top: 25px;
+}
+#vt-for-athletes-paragraph1 {
+	margin-top: 50px;
+}
+#vt-for-athletes-paragraph2 {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+#vt-for-athletes-paragraph3 {
+	margin-top: 40px;
+}
+
+.subpage {
+  padding: 10%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.ump-h1 {
+  margin-bottom: 5%;
+}
+.ump-h2 {
+  margin-bottom: 5%;
+}
+.ump-question {
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.ump-poet {
+  margin-bottom: 3%;
+  font-style: italic;
+}
+.ump-answer {
+  margin-bottom: 1%;
+}
+#ump-second-h2 {
+  margin-top: 10%;
+}
+#ump-computer {
+  margin-top: 2%;
+}
+.ump-li {
+  margin-bottom: 1%;
+}
+#ump-table {
+  margin-top: 3%;
+}
+#ump-third-h2 {
+  margin-top: 10%;
+}
+
+.for-pro {
+  margin-bottom: 3%;
+}
+#for-pro-adress2 {
+  margin-top: 5%;
+}
+#for-pro-ul {
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+.for-pro-li {
+  margin-bottom: 2%;
 }
