@@ -568,3 +568,56 @@ caption {
 .for-pro-li {
   margin-bottom: 2%;
 }
+
+.subpage {
+  padding: 10%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.ump-h1 {
+  margin-bottom: 5%;
+}
+.ump-h2 {
+  margin-bottom: 5%;
+}
+.ump-question {
+  font-weight: bold;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.ump-poet {
+  margin-bottom: 3%;
+  font-style: italic;
+}
+.ump-answer {
+  margin-bottom: 1%;
+}
+#ump-second-h2 {
+  margin-top: 10%;
+}
+#ump-computer {
+  margin-top: 2%;
+}
+.ump-li {
+  margin-bottom: 1%;
+}
+#ump-table {
+  margin-top: 3%;
+}
+#ump-third-h2 {
+  margin-top: 10%;
+}
+
+.for-pro {
+  margin-bottom: 3%;
+}
+#for-pro-adress2 {
+  margin-top: 5%;
+}
+#for-pro-ul {
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+.for-pro-li {
+  margin-bottom: 2%;
+}
