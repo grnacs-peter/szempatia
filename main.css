@@ -27,6 +27,11 @@ h1 {
 h2 {
 	font-size: 1.25em;
 }
+#goal-h2 {
+   font-size: 1.50em;
+   text-align: center;
+   margin-top: 5%;
+}
 h3 {
 	font-size: 1.05em;
 	margin-top: 0.5%;
@@ -36,6 +41,10 @@ p {
 	font-size: 1.05em;
 	line-height: 1.50em;
 }
+.p-main-page {
+   font-size: 1.80em;
+}
+
 .drop-menu-name {
 	font-size: 1.10em;
 }
@@ -48,7 +57,7 @@ p {
 #logo {
   width: 8%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 20%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -113,47 +122,79 @@ p {
 
 #banner {
   background-color: #D7E7EA;
-	width: 100%;
+  width: 100%;
   height: 500px;
 }
-#page-banner {
-  
-}
+
 
 #visualization {
-  background-color: #ffebeb;
   text-align: center;
-  padding: 50px;
+  padding-top: 5%;
 }
-#visualization-description {
-	margin-top: 40px;
+#visualization-content {
+   margin-top: 3%;
+}
+.visualization-description {
+	margin-top: 1%;
 	text-align: center;
 }
 
 #areas {
-  background-color: #ffebeb;
-	text-align: center;
-  padding-top: 40px;
+   margin-top: 9%;
+   margin-bottom: 1%;
 }
-#areas-description {
-	padding: 60px;
-	text-align: left;
+.areas-image {
+	width: 20em;
+   margin-left: 8.55em;
+}
+#areas-buttons {
+   margin-bottom: 4%;
+}
+#areas-text1 {
+	 display: inline-block;
+    font-weight: bold;
+	 text-align: center;
+	 font-size: 2.00em;
+	 width: 22%;
+    margin-left: 8.5%;
+}
+#areas-text2 {
+   display: inline-block;
+	text-align: center;
+	 font-size: 2.00em;
+	 width: 22%;
+    margin-left: 8.5%;
+   font-weight: bold;
+}
+#areas-text3 {
+   display: inline-block;
+	text-align: center;
+	 font-size: 2.00em;
+	 width: 22%;
+    margin-left: 8%;
+   font-weight: bold;
 }
 
 
-#vision-therapy {
-  background-color: #ffebeb;
-	padding-top: 40px;
-	text-align: center;
+#goals-content {
+   margin: 12%;
+   margin-top: 9%;
+   margin-bottom: 9%;
 }
-#vision-therapy-description {
-	padding: 60px;
-	font-weight: 600;
+#goals-ul {
+   margin-top: 5%;
+   margin-left: 4%;
 }
+.goals-li {
+   margin-top: 5%;
+   font-size: 1.25em;
+   font-weight: bold;
+}
+
 
 #main-staff-page {
 	width: 90%;
-	margin-top: 4%;
+	margin-top: 1%;
 	margin-left: 3%;
 	margin-bottom: 5%;
 }
@@ -178,73 +219,12 @@ p {
 #main-staff-image3 {
 	margin-left: 9%;
 }
-#staff-adress {
-	text-align: center;
-}
-.staff-content {
-	margin-top: 80px;
-}
-.staff-image {
-	width: 44%;
-	height: 55%;
-	display: inline-block;
-	border-radius: 5%;
-}
-.staff-writing {
-	display: inline-block;
-	width: 50%;
-	margin-left: 5%;
-}
-#main-bekesi-writing {
+.main-bekesi-writing {
 	margin-left: 9%;
 }
 #main-staff-image2 {
 	margin-left: 5%;
 }
-.staff-text {
-	margin-top: 5%;
-}
-.staff-writing2 {
-	margin-top: 2%;
-}
-#staff-paragraph6 {
-	margin-top: 2%;
-}
-#staff-paragraph7 {
-	margin-top: 2%;
-}
-#staff-paragraph8 {
-	margin-top: 2%;
-}
-#staff-paragraph9 {
-	margin-top: 4%;
-}
-#staff-paragraph10 {
-	margin-top: 2%;
-}
-.staff-ul {
-	margin-left: 3%;
-	margin-top: 1%;
-}
-#bekesi-writing {
-	margin-left: 0%;
-}
-#bekesi-image {
-	margin-left: 5%;
-}
-.staff-h3 {
-	margin-top: 3%;
-}
-#staff-paragraph18 {
-	margin-top: 3%;
-}
-#staff-paragraph19 {
-	margin-top: 3%;
-}
-#staff-paragraph20 {
-	margin-top: 3%;
-}
-
 
 .staff-button {
 	margin-top: 7%;
@@ -259,9 +239,66 @@ p {
 	display: block;
 }
 
-#opinions { 
-  padding-top: 1%;
+
+.staff-adress {
 	text-align: center;
+}
+.staff-content {
+   margin-top: 10%;
+}
+.staff-image {
+	width: 28%;
+	height: 35%;
+	display: inline-block;
+	border-radius: 5%;
+}
+.staff-writing {
+	display: inline-block;
+	width: 50%;
+	margin-left: 10%;
+}
+.bekesi-image {
+   margin-left: 0%;
+}
+.staff-text {
+	margin-top: 5%;
+}
+.staff-writing2 {
+	margin-top: 4%;
+}
+.staff-p-space {
+   margin-top: 2%;
+}
+#staff-paragraph9 {
+	margin-top: 4%;
+}
+#staff-paragraph10 {
+	margin-top: 2%;
+}
+.staff-ul {
+	margin-left: 3%;
+	margin-top: 1%;
+}
+#bekesi-image {
+	margin-left: 5%;
+}
+.staff-h3 {
+	margin-top: 3%;
+}
+#staff-paragraph18 {
+	margin-top: 3%;
+}
+#staff-paragraph20 {
+	margin-top: 3%;
+}
+
+
+
+
+
+#opinions { 
+  margin-top: 8%;
+  text-align: center;
 }
 #opinions-adress {
 	padding-right: 20px;
@@ -289,9 +326,9 @@ p {
 }
 
 #connection {
-  padding-top: 5%;
-	text-align: center;
-	font-weight: bold;
+   margin-top: 8%;
+   text-align: center;
+   font-weight: bold;
 }
 #connection-description {
 	padding-top: 5%;
@@ -505,37 +542,17 @@ caption {
   padding-bottom: 7%;
 }
 .ump-h1 {
-  margin-bottom: 5%;
+  text-align: center;
 }
-.ump-h2 {
-  margin-bottom: 5%;
+.subpage-content {
+   margin-top: 5%;
 }
-.ump-question {
-  font-weight: bold;
-  margin-top: 5%;
-  margin-bottom: 3%;
+#list-adress {
+	margin-top: 3%;
 }
-.ump-poet {
-  margin-bottom: 3%;
-  font-style: italic;
-}
-.ump-answer {
-  margin-bottom: 1%;
-}
-#ump-second-h2 {
-  margin-top: 10%;
-}
-#ump-computer {
-  margin-top: 2%;
-}
-.ump-li {
-  margin-bottom: 1%;
-}
-#ump-table {
-  margin-top: 3%;
-}
-#ump-third-h2 {
-  margin-top: 10%;
+.ump-ul {
+	margin-left: 3%;
+	margin-top: 2%;
 }
 
 .for-pro {
