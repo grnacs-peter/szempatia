@@ -1,623 +1,1091 @@
+ /* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+/* ==== END CSS RESET ==== */
+
+
+
+
+
+
+/* 
+	Sötétkék:    #4E7082
+	Közepeskék:  #80AEB5
+	Világoskék:  #D7E7EA
+	Nagyon v.k.: #F3F7F8
+
+	Sötétbarna:  #B56422
+*/
+
+
+
+
+
+
+/* ========== BASE STYLES ========== */
+
+
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: Georgia;
-  color: #4e7082;  /* Sötét: #275557, Közepes: #89f5c0, Világos: #ffffff */
+	box-sizing: border-box;
 }
 
 body {
-  background-color: #f7fcfc;  
+	font-family: 'Cabin', sans-serif;
+	background-color: #fff;
 }
-a {
-  text-decoration: none;
-	font-size: 1.10em;
-}
-.pages {
-	padding: 15%;
-	padding-top: 5%;
-	padding-bottom: 0%;
-}
+
 h1 {
-	font-size: 2.00em;
-}
-.h1-main-page {
-	font-size: 3.00em;
+	font-size: 2.5em;
+	font-weight: bold;
 }
 h2 {
-	font-size: 1.25em;
-}
-#goal-h2 {
-   font-size: 1.50em;
-   text-align: center;
-   margin-top: 5%;
-}
-h3 {
-	font-size: 1.05em;
-	margin-top: 0.5%;
-	font-weight: normal;
+	font-size: 2em;
+	font-weight: bold;
 }
 p {
-	font-size: 1.05em;
-	line-height: 1.50em;
+	font-size: 1rem;
 }
-.p-main-page {
-   font-size: 1.80em;
-}
-
-.drop-menu-name {
-	font-size: 1.10em;
-}
-
-#header {
-  background-color: #D7E7EA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-#logo {
-  width: 8%;
-  margin-left: 10%;
-  margin-right: 20%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.dropdown {
-		display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-		z-index: 1;
-		
-		border-radius: 3%;
-    background-color: #ffffff;
-    min-width: 230px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 10px 10px;
-}
-#third-drop {
-	  display: none;
-    position: absolute;
-		z-index: 1;
-		
-		border-radius: 3%;
-    background-color: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 10px 10px; 
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown:hover #third-drop {
-    display: block;
-}
-.dropdown-menu {	
-	margin: 5%;
-}
-#first-menu {
-  margin-right: 2%;
-  font-weight: 600;
-}
-#second-menu {
-  margin-right: 2%;
-  font-weight: 600;
-}
-#third-menu {
-  margin-right: 2%;
-  font-weight: 600;
-}
-#fourth-menu {
-  margin-right: 2%;
-  font-weight: 600;
-}
-#fifth-menu {
-  margin-right: 2%;
-  font-weight: 600;
-}
-#sixth-menu {
-	font-weight: 600;	
+a {
+	text-decoration: none;
 }
 
 
-#banner {
-  background-color: #D7E7EA;
-  width: 100%;
-  height: 500px;
-}
+/* ========== END BASE STYLES ========== */
 
 
-#visualization {
-  text-align: center;
-  padding-top: 5%;
-}
-#visualization-content {
-   margin-top: 3%;
-}
-.visualization-description {
-	margin-top: 1%;
-	text-align: center;
-}
-
-#areas {
-   margin-top: 9%;
-   margin-bottom: 1%;
-}
-.areas-image {
-	width: 20em;
-   margin-left: 8.55em;
-}
-#areas-buttons {
-   margin-bottom: 4%;
-}
-#areas-text1 {
-	 display: inline-block;
-    font-weight: bold;
-	 text-align: center;
-	 font-size: 2.00em;
-	 width: 22%;
-    margin-left: 8.5%;
-}
-#areas-text2 {
-   display: inline-block;
-	text-align: center;
-	 font-size: 2.00em;
-	 width: 22%;
-    margin-left: 8.5%;
-   font-weight: bold;
-}
-#areas-text3 {
-   display: inline-block;
-	text-align: center;
-	 font-size: 2.00em;
-	 width: 22%;
-    margin-left: 8%;
-   font-weight: bold;
-}
 
 
-#goals-content {
-   margin: 12%;
-   margin-top: 9%;
-   margin-bottom: 9%;
-}
-#goals-ul {
-   margin-top: 5%;
-   margin-left: 4%;
-}
-.goals-li {
-   margin-top: 5%;
-   font-size: 1.25em;
-   font-weight: bold;
-}
 
 
-#main-staff-page {
-	width: 90%;
-	margin-top: 1%;
-	margin-left: 3%;
-	margin-bottom: 5%;
-}
-.main-staff-content {
-	margin-top: 5%;
-}
-.main-staff-writing {
-	display: inline-block;
-	width: 50%;
-	margin-left: 5%;
-	position: relative; top: -30px;	
-}
-.main-staff-image {
-	width: 32%;
-	height: 40%;
-	display: inline-block;
-	border-radius: 5%;
-}
-#main-staff-image1 {
-	margin-left: 9%;
-}
-#main-staff-image3 {
-	margin-left: 9%;
-}
-.main-bekesi-writing {
-	margin-left: 9%;
-}
-#main-staff-image2 {
-	margin-left: 5%;
-}
+/* ========== FEJLÉC ========== */
 
-.staff-button {
-	margin-top: 7%;
-	padding: 1%;
-	font-size: 1.60em;
+
+.header {
+	width: 100%;
+	height: 12vh;
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	box-shadow: 1px 1px 0.5rem;
+}
+.menu {
+	font-size: 1.2rem;
+	float: right;
+	width: 63%;
+	height: 12vh;
+	line-height: 12vh;
 	font-weight: bold;
-	background-color: #d7e7ea;
-	width: 20%;
-	margin-left: 40%;
-	text-align: center;
-	border-radius: 5%;
-	display: block;
+}
+.menu a {
+	color: #B56422;
+	margin-left: 1.5rem;
+	margin-right: 2.5rem;
+}
+.menu .menupoint {
+	margin-left: 1%;
+}
+.menu .hover:hover {
+	color: #dcaf68
+}
+.menu .active {
+	color: #dcaf68
+		
+	/* border-bottom: solid 3px #4E7082;
+	color: #dcaf68 */
+}
+.tudas {
+	display: inline-block;
+}
+.tudas a {
+	margin-left: 25%;
+	color: #ffffff;
+	background-color: #80AEB5;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-radius: 10%;
+}
+.tudas a:hover {
+	background-color: #4E7082;
 }
 
 
-.staff-adress {
+.logo {
+	width: 21%;
+	margin-left: 4rem;
+	padding-top: 1rem;
+}
+.logo img {
+	width: 100%;
+}
+
+main {
+	position: relative; top: 12vh;
+}
+
+
+
+/* ========== KEZDŐLAP ========== */
+
+
+.main-image {
+	width: 100%;
+	border-width: 0;
+}
+
+.container1 {
+	width: 100%;
+	position: relative; top: -2px;
+	background-size: 100%;
+	background-image: url("assets/question-image.jpg");
+	background-repeat: no-repeat;
+}
+.container1 .subcontainer1 {
 	text-align: center;
-}
-.staff-content {
-   margin-top: 10%;
-}
-.staff-image {
-	width: 28%;
-	height: 35%;
-	display: inline-block;
-	border-radius: 5%;
-}
-.staff-writing {
-	display: inline-block;
-	width: 50%;
 	margin-left: 10%;
+	margin-right: 10%;
 }
-.bekesi-image {
-   margin-left: 0%;
+.container1 .subcontainer1 h1 {
+	padding-top: 7.84%;
+	margin-bottom: 4%;
 }
-.staff-text {
-	margin-top: 5%;
-}
-.staff-writing2 {
-	margin-top: 4%;
-}
-.staff-p-space {
-   margin-top: 2%;
-}
-#staff-paragraph9 {
-	margin-top: 4%;
-}
-#staff-paragraph10 {
-	margin-top: 2%;
-}
-.staff-ul {
-	margin-left: 3%;
-	margin-top: 1%;
-}
-#bekesi-image {
-	margin-left: 5%;
-}
-.staff-h3 {
-	margin-top: 3%;
-}
-#staff-paragraph18 {
-	margin-top: 3%;
-}
-#staff-paragraph20 {
-	margin-top: 3%;
+.container1 .subcontainer1 h2 {
+	margin-bottom: 3%;
+	line-height: 1.4em;
 }
 
-
-
-
-
-#opinions { 
-  margin-top: 8%;
-  text-align: center;
-}
-#opinions-adress {
-	padding-right: 20px;
-}
-#opinions-description {
-	width: 90%;
-	margin-top: 3%;
-	margin-left: 5%;
-}
-.customer {
-	display: inline-block;
-	padding: 3%;
-}
-.customer-image {
-	width: 200px;
-	height: 250px;
-	border-radius: 50%;
-}
-.customer-writing {
-		width: 300px;
-		margin: 10px;
-}
-.customer-text {
-	padding-top: 20px;
-}
-
-#connection {
-   margin-top: 8%;
-   text-align: center;
-   font-weight: bold;
-}
-#connection-description {
-	padding-top: 5%;
-	padding-bottom: 2%;
-}
-#map {
-	border-radius: 5%;
-	display: inline-block;
-}
-#connection-writing {
-	display: inline-block;
-	position: relative; top: -30px;
-}
-.connection-text {
-	margin-left: 50px;
-	text-align: left;
-	font-size: 1.25em;
-}
-#enterprise-name {
-	font-size: 1.50em;
+.container1 .subcontainer2 {
 	padding-bottom: 5%;
 }
-#adress {
-	padding-bottom: 30px;
-}
-#email {
-	padding-bottom: 30px;	
-}
-#phone-number {
-	padding-bottom: 30px;
-}
-
-table {
-	width: 80%;
-	text-align: center;
-	margin-top: 3%;
-	margin-bottom: 4%;
-	margin-left: 10%;
-}
-td {
-	padding: 1%;
-	padding-left: 2%;
-	padding-right: 2%;
-	font-weight: bold;
-	font-size: 1.05em;
-}
-caption {
-	margin-bottom: 4%;
-	font-size: 2.00em;
-}
-.time {
-	width: 55%;
-}
-#opening-text {
-	text-align: center;
-	margin-bottom: 5%
-}
-#opening-text1 {
-	margin-bottom: 2%;
-}
-
-#prices {
+.vt {
+	display: inline-block;
 	margin-top: 5%;
+	margin-left: 10%;
+	width: 20%;
 }
-#prices-caption {
+.vt-image {
+	width: 100%;
+	margin-bottom: 10%;
+	border-radius: 7%;
+	box-shadow: 1px 1px 1.5rem;
+}
+.vt-button {
+	display: block;
+	margin: 0 auto;
+	width: 99%;
+	background-image: url("assets/button-image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: none;
+	padding: 6% 1%;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 19%;
+	box-shadow: 1px 1px 0.5rem;
+}
+
+
+
+.container2 {
+	width: 100%;
+	background-size: 100%;
+	background-image: url("assets/goals-image.jpg");
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 0.5rem;
 	margin-bottom: 1%;
 }
-#prices-table {
-	text-align: left;
-}
-#prices-table-text {
+.container2 h1 {
 	text-align: center;
+	padding-top: 7%;
+	margin-bottom: 4%;
 }
-.main {
-	font-size: 1.25em;
-	padding-top: 5%;
+.container2 .subcontainer {
+	width: 57%;
+	margin-left: 20%;
+	margin-bottom: 5%;
 }
-.property {
-	font-size: 1.10em;
-	font-weight: normal;
+.container2 .subcontainer img {
+	width: 15%;
+	margin-right: 8%;
+	display: inline-block;
+	position: relative; bottom: -18px;
 }
-#prices-text {
-	width: 74%;
-	margin-left: 13%;
+.container2 .subcontainer .subh2 {
+	display: inline-block;
+	width: 75%;
 }
-.prices-paragraph {
-	margin-top: 3%;
+#subber {
+	display: inline-block;
+	width: 50%;
 }
 
-#footer {
-  background-color: #D7E7EA;
-	height: 200px;
-	padding-top: 200px;
+.container2 .subcontainer2 {
+	padding: 3%;
 	text-align: center;
-	margin-top: 10%;
+}
+
+
+
+.container3 {
+	width: 100%;
+	background-size: 100%;
+	background-image: url("assets/opinions-image.png");
+	background-repeat: no-repeat;
+}
+.container3 .opinions {
+	margin-right: 48.5%;
+	padding-top: 25%;
+	padding-bottom: 13%;
+}
+
+
+
+.container4 {
+	width: 100%;
+	background-size: cover;
+	background-image: url("assets/ourstaff-image.jpg");
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 0.5rem;
+}
+.container4 h1 {
+	padding-top: 5.5%;
+	text-align: center;
+}
+.container4 .staff {
+	margin-left: 4%;
+	margin-top: 5%;
+	margin-bottom: 4.5%;
+	width: 20%;
+	display: inline-block;
+}
+.container4 .staff-image {
+	width: 100%;
+	margin-bottom: 12%;
+}
+.container4 h2 {
+	margin-bottom: 8%;
+	text-align: center;
+}
+.container4 p {
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+
+
+.container5 {
+	width: 100%;
+}
+.container5 h1 {
+	margin-top: 5.5%;
+	text-align: center;
+}
+.container5 .connection-image {
+	width: 30%;
+	float: right;
+	margin-top: 5.5%;
+	margin-right: 18%;
+}
+.container5 .map {
+	margin-top: 5.5%;
+	margin-left: 9%;
+	border-radius: 5%;
+	margin-bottom: 8%;
+	box-shadow: 1px 1px 0.5rem;
+}
+
+
+
+footer {
+	background-color: #4E7082;
+	width: 100%;
+	background-size: cover;
+	background-image: url("assets/footer-image.png");
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 0.5rem;	
+}
+footer .text {
+	width: 45%;
+	margin-left: 8%;
+	padding-top: 8%;
+	padding-bottom: 3%;	
+}
+footer .first-column {
+	display: inline-block;
+}
+footer .second-column {
+	display: inline-block;
+	margin-left: 15%;
+}
+footer nav {
+	margin-bottom: 2rem;
+}
+footer .last {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+footer .text a {
+	font-size: 1.2rem;
+}
+
+
+
+
+/* ========== MIVEL FOGLALKOZUNK? ========== */
+
+
+.subpage {
+	width: 100%;
+	background-color: #fff;
+	line-height: 2.2rem;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+.subpage .content {
+	margin-bottom: 8rem;
+}
+.subpage h1 {
+	font-size: 2.3rem;
+	margin-bottom: 5rem;
+	color: #B56422;
+}
+.subpage p {
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+	color: #4E7082;
+}
+
+
+.subpage .con1 {
+	width: 82%;
+	margin-left: 10%;
+	padding: 7% 9%;
+	background-color: #F3F7F8;
+	/* background-size: 100%;
+	background-image: url("assets/vt.jpg");
+	background-repeat: no-repeat;
+	*/
+	border-radius: 2%;
+	box-shadow: 1rem 1rem 3rem;
+}
+.subpage .con1 h1 {
+	font-weight: bold;
+	color: #B56422;
+}
+.subpage .con1 p {
+	color: #4E7082;
+}
+
+.subpage .con2 {
+	width: 80%;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 1%;
+	margin-left: 10%;
+	background-color: #fff;
+	border-left: solid 2rem #4E7082;
+}
+
+.subpage .con3 {
+	width: 100%;
+	padding: 8% 20%;
+	background-color: #fff;
+	background-size: cover;
+	background-image: url("assets/mivel%20foglalkozunk2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 0;
+}
+.subpage .con3 h1 {
+	color: #fff;
+	font-size: 2rem;
+}
+.subpage .con3 p {
+	color: #fff;
+	font-weight: bold;
+}
+
+.subpage .con4 {	
+	width: 100%;
+	background-color: #F3F7F8;
+	padding: 7% 9%;
+	margin-bottom: 0;
+}
+.subpage .con4 p {
+	color: #fff;
+}
+.subpage .con4 h1 {
+	text-align: center;
+	margin-bottom: 6rem;
+}
+.subpage .con4 .row1 {
+	display: block;
+	width: 100%;
+	height: 29rem;
+	margin-bottom: 3rem;
+}
+.subpage .con4 .row2 {
+	display: block;
+	width: 100%;
+	height: 29rem;
+}
+.subpage .con4 .csempe {
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: #80AEB5;
+	margin-right: 4.5%;
+	padding: 2.5rem 2.5rem;
+	border-radius: 5%;
+	box-shadow: 1px 1px 0.5rem;
+}
+.subpage .con4 .csl {
+	margin-right: 0;
+}
+.subpage .con4 .csempe .object {
+	width: 100%;
+	text-align: center;
+}
+.subpage .con4 .csempe .object img {
+	width: 50%;
+	margin-bottom: 3rem;
+}
+
+.subpage .con5 {
+	width: 100%;
+	background-color: ;
+	padding: 7% 9%;
+	margin-bottom: 0;
+	background-size: cover;
+	background-image: url("assets/info.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.subpage .con5 ul {
+	list-style: disc;
+	margin-left: 2%;
+}
+.subpage .con5 p {
+	font-weight: bold;
+}
+
+.subpage .con6 {
+	width: 100%;
 	
 }
-
-.vt-page-paragraph {
-	margin-top: 25px;
+.subpage .con6 h1 {
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 0%;
+	font-size: 2.3rem;
 }
-.vt-page-adress {
-	margin-top: 70px;
-}
-#vt-page-paragraph1 {
-	margin-top: 50px;
-}
-#vt-page-paragraph7 {
-	margin-top: 40px;
-}
-#vt-page-paragraph9 {
-	margin-top: 40px;
-}
-#vt-page-paragraph12 {
-	margin-top: 10px;
-}
-#vt-page-paragraph14 {
-	margin-top: 10px;
-}
-#vt-page-paragraph15 {
-	margin-top: 10px;
-}
-#vt-page-paragraph16 {
-	margin-top: 10px;
-}
-#vt-page-paragraph17 {
-	margin-top: 40px;
-}
-#vt-page-paragraph18 {
-	margin-top: 40px;
-}
-#vt-page-paragraph24 {
-	margin-top: 40px;
-}
-#vt-page-paragraph31 {
-	margin-top: 60px;
-}
-#vt-page-paragraph32 {
-	font-weight: 600;
-	font-size: 0.90em;
+.subpage .con6 .vt {
+	margin-top: 6%;
+	margin-bottom: 10%;
 }
 
 
-.vt-for-children-paragraph {
-	margin-top: 25px;
-}
-.vt-for-children-adress {
-	margin-top: 70px;
-}
-#vt-for-children-ul {
-	margin-top: 35px;
-	margin-left: 40px;
-}
-.children-li {
-	margin-top: 30px;
-}
-#vt-for-children-paragraph1 {
-	margin-top: 40px;
-}
-#vt-for-children-paragraph3 {
-	margin-top: 40px;
-}
-#vt-for-children-paragraph9 {
-	margin-top: 80px;
-}
 
-.vt-for-adults-paragraph {
-	margin-top: 25px;
-}
-.vt-for-adults-adress {
-	margin-top: 70px;
-}
-#vt-for-adults-ul {
-	margin-top: 35px;
-	margin-left: 40px;
-}
-.adults-li {
-	margin-top: 30px;
-}
-#vt-for-adults-paragraph1 {
-	margin-top: 40px;
-}
-#vt-for-adults-paragraph3 {
-	margin-top: 40px;
-}
-#vt-for-adults-paragraph8 {
-	font-weight: 600;
-	font-size: 0.90em;
-}
-#vt-for-adults-content3 {
-	margin-top: 70px;
-}
+/* ========== MUNKATÁRSAINK ========== */
 
-.vt-for-athletes-paragraph {
-	margin-top: 25px;
-}
-#vt-for-athletes-paragraph1 {
-	margin-top: 50px;
-}
-#vt-for-athletes-paragraph2 {
-	margin-top: 40px;
-	margin-left: 30px;
-}
-#vt-for-athletes-paragraph3 {
-	margin-top: 40px;
-}
 
-.subpage {
-  padding: 10%;
-  padding-top: 7%;
-  padding-bottom: 7%;
+.our-staff {
+	background-color: #F3F7F8;
+	width: 100%;
+	line-height: 2.2rem;
+	padding-top: 3%;
 }
-.ump-h1 {
-  text-align: center;
+.our-staff h1 {
+	font-size: rem;
+	margin-bottom: 5rem;
+	color: #B56422;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-left: 10%;
 }
-.subpage-content {
-   margin-top: 5%;
+.our-staff p {
+	font-size: 1.3rem;
+	margin-bottom: 1.5rem;
+	color: #4E7082;
 }
-#list-adress {
+.our-staff .staffpage {
+	width: 100%;
+	padding: 7% 10%;
+	background-size: cover;
+	background-image: url("assets/staffback.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 10%;
+	box-shadow: 1px 1px 1rem;
+}
+.our-staff .staffpage img {
+	width: 85%;
+}
+.our-staff .staffpage p {
+	color: #fff;
+}
+.our-staff .staffpage .card {
+	background: transparent;
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	padding-top: 3%;
+	margin-right: 7%;
+	margin-bottom: 5%;
+}
+.our-staff .staffpage .card h2 {
+	margin: 8% 0%;
+	color: #fff;
+}
+.our-staff .staffpage .text-d {
+	width: 60%;
+	display: inline-block;	
+}
+.our-staff .staffpage .text2-d {
+	width: 100%;
+	padding: 2% 2%;
+}
+.our-staff .staffpage .text2-d ul {
+	list-style: disc;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	color: #fff;
+}
+.strong {
 	margin-top: 3%;
 }
-.ump-ul {
+.poloskei {
+	position: relative; top: -10rem; left: 0rem;
+}
+.our-staff .poloskei-staffpage .poloskei-card {
+	margin-bottom: 0%;
+}
+main .our-staff .poloskei-staffpage {
+	width: 100%;
+	padding: 7% 10%;
+	background-size: cover;
+	background-image: url("assets/staffback.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: 1px 1px 2rem;
+	margin-bottom: 12%;
+}
+.our-staff .poloskei-staffpage img {
+	width: 85%;
+}
+.our-staff .poloskei-staffpage p {
+	color: #fff;
+}
+.our-staff .poloskei-staffpage .card {
+	background: transparent;
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	padding-top: 3%;
+	margin-right: 7%;
+	margin-bottom: 5%;
+}
+.our-staff .poloskei-staffpage .card h2 {
+	margin: 8% 0%;
+	color: #fff;
+}
+.our-staff .poloskei-staffpage .text-d {
+	width: 60%;
+	display: inline-block;	
+}
+
+
+/* ========== ÁRAK ========== */
+
+
+.prices {
+	width: 100%;
+	padding: 7% 9%;
+	line-height: 2.2rem;
+	background-color: #F3F7F8;
+}
+.prices .pricescon {
+	width: 100%;
+	padding: 7% 9%;
+	background-color: #fff;
+	border-radius: 5%;
+	box-shadow: 1px 1px 0.5rem;
+}
+.prices table {
+	width: 100%;
+	margin-bottom: 10%;
+}
+.prices .cap {
+	width: 100%;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #B56422;       
+	padding-top: 2%;
+	padding-bottom: 2%;	
+}
+.prices .subcap {
+	text-align: center;
+	padding-bottom: 2%;
+	font-size: 1.2rem;
+	color: #80AEB5;
+	font-weight: bold;
+}
+.prices .main {
+	padding-top: 7%;
+	padding-bottom: 3%;
+	color: #B56422;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+.prices .property {
+	padding: 1% 0%;
+	color: #4E7082;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.prices-text p {
+	width: 100%;
+	font-size: 1.3rem;
+	margin-bottom: 2%;
+	color: #4E7082;
+}
+
+
+
+/* ========== ELÉRHETŐSÉGEK ========== */
+
+.connection {
+	width: 100%;
+	padding: 7% 9%;
+}
+.connection h1 {
+	text-align: center;
+	color: #B56422;
+	margin-bottom: 3%;
+}
+.connection .connection-image {
+	width: 36%;
+	margin-top: 5.5%;
+}
+.connection .map {
+	border-radius: 5%;
+	margin-left: 5%;
+	margin-right: 8%;
+	box-shadow: 1px 1px 0.5rem;
+}
+
+
+
+/* ========== GYEREKEKNEK ========== */
+
+.forchildren {
+	width: 100%;
+	line-height: 1.5rem;
+	padding-top: 7%;
+}
+.forchildren h1 {
+	color: #B56422;
+	margin-bottom: 7%;
+}
+.forchildren p {
+	color: #4E7082;
+	font-size: 1.3rem;
+}
+.forchildren .child1 {
+	width: 80%;
+	border-left: solid 2rem #4E7082;
+	padding: 1% 3%;
+	margin: 0% 9%;
+}
+.forchildren .child1 p {
+	font-weight: bold;
+	margin-bottom: 1.5%;
+}
+.forchildren .child1 .lp {
+	margin-bottom: 0%;
+}
+
+.forchildren .child2 {
+	width: 80%;
+	background-color: #fff;
+	padding: 7% 5%;
+	border-radius: 1%;
+	margin: 7% 9%;
+	box-shadow: 1px 1px 3rem;
+}
+.forchildren .child2 p {
+	line-height: 3rem;
+	margin-bottom: 3%;
+}
+.forchildren .child2 .lastp {
+	margin-bottom: 0%;
+}
+
+.forchildren .child3 {
+	width: 100%;
+	background-color: deeppink;
+	padding: 7% 15%;
+	background-size: cover;
+	background-image: url("assets/forchildren.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: 1px 1px 1rem;
+}
+.forchildren .child3 h1 {
+	color: #fff;
+}
+.forchildren .child3 li {
+	font-size: 1.5rem;
+	list-style: disc;
 	margin-left: 3%;
-	margin-top: 2%;
+	margin-bottom: 3%;
+	color: #fff;
+	font-weight: bold;
+}
+.forchildren .child3 .lli {
+	margin-bottom: 0%;
 }
 
-.for-pro {
-  margin-bottom: 3%;
+
+.forchildren .child4 {
+	width: 100%;
+	margin-top: 2.5%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 9%;
+	padding-bottom: 11.5%;
+	line-height: 2.5rem;
+	text-align: center;
 }
-#for-pro-adress2 {
-  margin-top: 5%;
-}
-#for-pro-ul {
-  margin-bottom: 5%;
-  margin-left: 3%;
-}
-.for-pro-li {
-  margin-bottom: 2%;
+.forchildren .child4 p {
+	font-size: 1.5rem;
+	line-height: 3rem;
 }
 
-.subpage {
-  padding: 10%;
-  padding-top: 7%;
-  padding-bottom: 7%;
+
+/* ========== FELNŐTTEKNEK ========== */
+
+.foradult {
+	width: 100%;
+	line-height: 1.5rem;
+	padding-top: 7%;
 }
-.ump-h1 {
-  margin-bottom: 5%;
+.foradult h1 {
+	color: #B56422;
+	margin-bottom: 7%;
+	font-size: 2.5rem;
 }
-.ump-h2 {
-  margin-bottom: 5%;
+.foradult p {
+	color: #4E7082;
+	font-size: 1.3rem;
 }
-.ump-question {
-  font-weight: bold;
-  margin-top: 5%;
-  margin-bottom: 3%;
+.foradult .adult1 {
+	width: 80%;
+	border-left: solid 2rem #4E7082;
+	padding: 1% 3%;
+	margin: 0% 9%;
 }
-.ump-poet {
-  margin-bottom: 3%;
-  font-style: italic;
+.foradult .adult1 p {
+	font-weight: bold;
+	margin-bottom: 1.5%;
 }
-.ump-answer {
-  margin-bottom: 1%;
-}
-#ump-second-h2 {
-  margin-top: 10%;
-}
-#ump-computer {
-  margin-top: 2%;
-}
-.ump-li {
-  margin-bottom: 1%;
-}
-#ump-table {
-  margin-top: 3%;
-}
-#ump-third-h2 {
-  margin-top: 10%;
+.foradult .adult1 .lp {
+	margin-bottom: 0%;
 }
 
-.for-pro {
-  margin-bottom: 3%;
+.foradult .adult2 {
+	width: 80%;
+	background-color: #fff;
+	padding: 7% 5%;
+	border-radius: 1%;
+	margin: 7% 9%;
+	box-shadow: 1px 1px 3rem;
 }
-#for-pro-adress2 {
-  margin-top: 5%;
+.foradult .adult2 p {
+	line-height: 3rem;
+	margin-bottom: 3%;
 }
-#for-pro-ul {
-  margin-bottom: 5%;
-  margin-left: 3%;
+.foradult .adult2 .lastp {
+	margin-bottom: 0%;
 }
-.for-pro-li {
-  margin-bottom: 2%;
+
+.foradult .adult3 {
+	width: 100%;
+	background-color: deeppink;
+	padding: 7% 15%;
+	background-size: cover;
+	background-image: url("assets/foradult.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: 1px 1px 1rem;
 }
+.foradult .adult3 h1 {
+	color: #fff;
+}
+.foradult .adult3 li {
+	font-size: 1.5rem;
+	list-style: disc;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	color: #fff;
+	font-weight: bold;
+}
+.foradult .adult3 .lli {
+	margin-bottom: 0%;
+}
+
+
+
+/* ========== SPORTOLÓKNAK ========== */
+
+.forsport {
+	width: 100%;
+	line-height: 1.5rem;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	background-color: #F3F7F8;
+}
+.forsport h1 {
+	color: #fff;
+	margin-bottom: 7%;
+	font-size: 2.5rem;
+}
+.forsport p {
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.forsport .sport2 {
+	width: 80%;
+	background-color: #fff;
+	padding: 7% 5%;
+	border-radius: 1%;
+	margin-left: 9%;
+	background-size: cover;
+	background-image: url("assets/forsport.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: 1px 1px 1.3rem;
+}
+.forsport .sport2 p {
+	line-height: 3rem;
+	margin-bottom: 3%;
+}
+.forsport .sport2 .lastp {
+	margin-bottom: 0%;
+}
+
+
+
+/* ========== TUDÁSTÁR ========== */
+
+
+.know {
+	width: 100%;
+	background-color: #F3F7F8;
+	padding: 7% 12%;
+	line-height: 2.3rem;
+}
+.know h1 {
+	font-size: 2.5rem;
+	color: #B56422;
+	margin-bottom: 6%;
+}
+.know p {
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #4E7082;
+	margin-top: 3%;
+}
+.know .book {
+	width: 100%;
+	margin-top: 10%;
+	padding: 5% 5%;
+	border-radius: 1%;
+	background-color: #fff;
+	box-shadow: 1px 1px 0.7rem;
+}
+
+.know .book .book-img {
+	width: 20%;
+	display: inline-block;
+}
+.know .book .book-img img {
+	width: 100%;
+}
+
+.know .book .book-text {
+	width: 65%;
+	display: inline-block;
+	float: right;
+	margin-right: 7%;
+}
+.know .book .book-text h2 {
+	padding: 4% 0%;
+	color: #B56422;
+}
+.know .book .book-text a {
+	font-size: 1.5rem;
+}
+
+
+/* ========== STYLES ========== */
+
+
+.container1 .subcontainer1 h1 {
+	color: #B56422;
+}
+
+.container1 .subcontainer1 h2 {
+	color: #80AEB5;
+}
+
+.vt-button a {
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.container2 h1 {
+	color: #B56422;
+}
+
+.container2 .subcontainer .subh2 {
+	color: #4E7082;
+}
+
+#subber {
+	color: #4E7082;
+}
+
+.big-text {
+	font-size: 4.3rem;
+	font-weight: bold;
+	color: #4E7082;
+}
+
+.container3 .opinions {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #4E7082;
+	text-align: right;
+	line-height: 2.5rem;
+}
+
+.container4 h1 {
+	color: #B56422;
+}
+
+.container4 h2 {
+	color: #B56422;
+	font-weight: bold;
+}
+
+.container4 p {
+	color: #4E7082;
+}
+
+.container5 h1 {
+	color: #B56422;
+}
+
+footer a {
+	font-size: 1.5rem;
+	color: #D7E7EA;
+}
+
+footer .copy {
+	font-size: 0.8rem;
+	color: #D7E7EA;
+}
+
+
+
+
+/* ========== MEDIA ========== */
+
+
+@media(max-width:1320px) {
+	.logo {width: 17%; padding-top: 1.5rem;}
+	.menu {font-size: 1rem;}
+	.menu .menupoint {margin-left: 0%;}
+	.tudastar {margin-left: 0%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

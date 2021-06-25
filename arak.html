@@ -1,50 +1,39 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="hu">	
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
    <link rel="stylesheet" type="text/css" href="main.css">
-   <title>Szempátia - Optometriai szakrendelő </title>
-</head>
-<body>
-<header id="header">
-   <img id="logo" src="assets/szempatia-logo.jpg" alt="Szempátia logo">
-   <a id="first-menu" href="index.html">Kezdőlap</a>
-   <div id="second-menu" class="dropdown">
-      <span class="drop-menu-name">Mivel foglalkozunk?</span>
-         <div class="dropdown-content">
-            <p class="dropdown-menu"><a href="vision-therapy.html">Vision Therpy módszer</a></p>
-            <p class="dropdown-menu"><a href="vt-gyerekeknek.html">VT gyerekeknek</a></p>
-            <p class="dropdown-menu"><a href="vt-felotteknek.html">VT felnőtteknek</a></p>
-            <p class="dropdown-menu"><a href="vt-sportoloknak.html">VT sportolóknak</a></p>
-         </div>
+   <title>SZEMPÁTIA - Vision Therapy Centrum</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+	<script src="main.js" defer></script>
+</head>	
+<body>	
+	<div class="header">		
+	<div class="menu">            
+		<a class="hover" href="mivel-foglalkozunk.html">Mivel foglalkozunk?</a>              
+   	<a class="menupoint hover" href="munkatarsak.html">Munkatársak</a>
+     	<a class="menupoint hover active" href="arak.html">Árak</a>
+     	<a class="menupoint hover" href="elerhetosegek.html">Elérhetőségek</a>
+	<div class="tudas">
+	   <a href="tudastar.html">Tudástár</a>
    </div>
-   <a id="third-menu" href="munkatarsaink.html">Munkatársaink</a>
-   <div id="fourth-menu" class="dropdown">
-      <span class="drop-menu-name">Elérhetőségek</span>
-         <div class="dropdown-content">
-            <p class="dropdown-menu"><a href="kapcsolat.html">Kapcsolat</a></p>
-            <p class="dropdown-menu"><a href="arak.html">Árak</a></p>
-            <p class="dropdown-menu"><a href="letoltheto-dokumentumok.html">Letölthető dokumentumok</a></p>
-         </div>
-   </div>
-   <div id="sixth-menu" class="dropdown">
-      <span class="drop-menu-name">Szakembereknek</span>
-         <div class="dropdown-content" id="third-drop">
-            <p class="dropdown-menu"><a href="vt-rol-bovebben.html">VT-ről bővebben</a></p>
-            <p class="dropdown-menu"><a href="esemenyek.html">Események</a></p>
-            <p class="dropdown-menu"><a href="hasznos-anyagok.html">Hasznos anyagok</a></p>
-         </div>
-   </div>	
-</header>
-	
-<div id="prices">
-		<table id="prices-table">
-			<caption id="prices-caption"><b>Vizsgálati díjak</b></caption>
+	</div>	
+	<div class="logo">
+		<img src="assets/logo-image.jpg" alt="Szempátia logo">
+	</div>
+	</div>	
+<main>
+	<div class="prices">
+	 <div class="pricescon">
+		<table>
+			<caption class="cap"><b>Vizsgálati díjak</b></caption>
 			<tr>
-				<td colspan="3" id="prices-table-text">Érvényes: 2020. szeptember 1-től visszavonásig.</td>
+				<td colspan="3" class="subcap">Érvényes: 2020. szeptember 1-től visszavonásig.</td>
 			</tr>
-			<tr>
+			<tr class="mainrow">
 				<td class="main">Összetett funkcionális látásvizsgálat:</td>
 				<td class="main">18.000 Ft</td>
 				<td class="main">60 perc</td>
@@ -64,7 +53,7 @@
 				<td class="">&nbsp;</td>
 				<td class="">&nbsp;</td>
 			</tr>
-			<tr>
+			<tr class="mainrow">
 				<td class="main">Látásvizsgálat:</td>
 				<td class="main">12.000 Ft</td>
 				<td class="main">45 perc</td>
@@ -72,7 +61,7 @@
 			<tr>
 				<td colspan="3" class="property">(alapvizsgálat / konzultáció / kontroll / záróvizsgálat  / testvér esetén)</td>
 			</tr>
-			<tr>
+			<tr class="mainrow">
 				<td class="main" id="main3">Vision Therapy foglalkozás (2 hetente):</td>
 				<td class="main">8.000 Ft / alkalom</td>
 				<td class="main">45 perc</td>
@@ -83,17 +72,33 @@
 				<td class="">&nbsp;</td>
 			</tr>
 		</table>
-	<div id="prices-text">
-		<p class="prices-paragraph">Amennyiben a megbeszélt időpontban nem tud bármilyen oknál fogva megjelenni, kérjük, hogy ezt minél hamarabb, de legalább aznap reggel jelezze telefonon.</p>
-		<p class="prices-paragraph">Amennyiben nem jelennek meg a lefoglalt időpontban és ezt nem is jelzik, a következő alkalommal <b>készenléti díjat</b> kell felszámolnunk, amely a vizitdíj 50 %-a.</p>
-		<p class="prices-paragraph">Az otthoni gyakorláshoz kiadott eszközökért nem kell fizetni, de a program indulásakor <b>letéti díjat</b> kérünk érte.  Amennyiben bármilyen oknál fogva félbe marad a program, az éppen kint lévő eszközök fejében visszafizetjük a letétben itt hagyott összeget.  A VT- befejezésekor, az utolsó alkalommal beszámítjuk.</p>
-		<p class="prices-paragraph">Mind a vizsgálati díj, mind a terápia a magán egészségpénztáraknál elszámolható.</p>
-	</div>
-</div>
-		
-<footer id="footer">
-			<h1>Lábléc</h1>
-		
+		<div class="prices-text">
+			<p>- Amennyiben a megbeszélt időpontban nem tud bármilyen oknál fogva megjelenni, kérjük, hogy ezt minél hamarabb, de legalább aznap reggel jelezze telefonon.</p>
+			<p>- Amennyiben nem jelennek meg a lefoglalt időpontban és ezt nem is jelzik, a következő alkalommal <b>készenléti díjat</b> kell felszámolnunk, amely a vizitdíj 50 %-a.</p>
+			<p>- Az otthoni gyakorláshoz kiadott eszközökért nem kell fizetni, de a program indulásakor <b>letéti díjat</b> kérünk érte.  Amennyiben bármilyen oknál fogva félbe marad a program, az éppen kint lévő eszközök fejében visszafizetjük a letétben itt hagyott összeget.  A VT- befejezésekor, az utolsó alkalommal beszámítjuk.</p>
+			<p>- Mind a vizsgálati díj, mind a terápia a magán egészségpénztáraknál elszámolható.</p>
+		</div>
+	 </div>
+	</div>	
+<footer>		
+	<div class="text">	
+		<div class="first-column">
+			<nav><a href="index.html">Főoldal</a></nav>
+			<nav><a href="munkatarsak.html">Munkatársak</a></nav>
+			<nav><a href="elerhetosegek.html">Elérhetőségek</a></nav>
+			<nav><a href="arak.html">Árak</a></nav>
+			<nav class="last"><a href="impresszum.html">Impresszum</a></nav>
+		</div>
+		<div class="second-column">
+			<nav><a href="mivel-foglalkozunk.html">Vision Therapy módszer</a></nav>
+			<nav><a href="vision-therapy-gyerekeknek.html">Gyerekeknek</a></nav>
+			<nav><a href="vision-therapy-felnotteknek.html">Felnőtteknek</a></nav>
+			<nav><a href="vision-therapy-sportoloknak.html">Sportolóknak</a></nav>
+			<nav class="last"><a href="tudastar.html">Tudástár</a></nav>
+		</div>
+		<div><p class="copy">Copyright @ SZEMPATIA - VISION THERAPY CENTRUM - 20?? - 2021 - Minden jog fenntartva! | All rights reserved!</p></div>
+	</div>			
 </footer>
-</body>
+</main>
+</body>	
 </html>
