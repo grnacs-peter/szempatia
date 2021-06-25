@@ -1,184 +1,199 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="hu">	
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
    <link rel="stylesheet" type="text/css" href="main.css">
-   <title>Szempátia - Optometriai szakrendelő </title>
-</head>
-   
-  
-<body>
-   
-   
-<header id="header">
-   <img id="logo" src="assets/szempatia-logo.jpg" alt="Szempátia logo">
-   <a id="first-menu" href="index.html">Kezdőlap</a>
-   <div id="second-menu" class="dropdown">
-      <span class="drop-menu-name">Mivel foglalkozunk?</span>
-         <div class="dropdown-content">
-            <p class="dropdown-menu"><a href="vision-therapy.html">Vision Therpy módszer</a></p>
-            <p class="dropdown-menu"><a href="vt-gyerekeknek.html">VT gyerekeknek</a></p>
-            <p class="dropdown-menu"><a href="vt-felotteknek.html">VT felnőtteknek</a></p>
-            <p class="dropdown-menu"><a href="vt-sportoloknak.html">VT sportolóknak</a></p>
-         </div>
+   <title>SZEMPÁTIA - Vision Therapy Centrum</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+	<script src="main.js" defer></script>
+</head>	
+<body>	
+<div class="header">		
+	<div class="menu">            
+		<a class="hover" href="mivel-foglalkozunk.html" target="_blank">Mivel foglalkozunk?</a>              
+   	<a class="menupoint hover" href="munkatarsak.html" target="_blank">Munkatársak</a>
+     	<a class="menupoint hover" href="arak.html" target="_blank">Árak</a>
+     	<a class="menupoint hover" href="elerhetosegek.html" target="_blank">Elérhetőségek</a>
+	<div class="tudas">
+	   <a href="tudastar.html" target="_blank">Tudástár</a>
    </div>
-   <a id="third-menu" href="munkatarsaink.html">Munkatársaink</a>
-   <div id="fourth-menu" class="dropdown">
-      <span class="drop-menu-name">Elérhetőségek</span>
-         <div class="dropdown-content">
-            <p class="dropdown-menu"><a href="kapcsolat.html">Kapcsolat</a></p>
-            <p class="dropdown-menu"><a href="arak.html">Árak</a></p>
-            <p class="dropdown-menu"><a href="letoltheto-dokumentumok.html">Letölthető dokumentumok</a></p>
-         </div>
-   </div>
-   <div id="sixth-menu" class="dropdown">
-      <span class="drop-menu-name">Szakembereknek</span>
-         <div class="dropdown-content" id="third-drop">
-            <p class="dropdown-menu"><a href="vt-rol-bovebben.html">VT-ről bővebben</a></p>
-            <p class="dropdown-menu"><a href="esemenyek.html">Események</a></p>
-            <p class="dropdown-menu"><a href="hasznos-anyagok.html">Hasznos anyagok</a></p>
-         </div>
-   </div>	
-</header>
-   
-   
-<div id="banner"></div>
-   
-   
-<div id="visualization">
-   <h1 class="h1-main-page">Mivel foglalkozunk?</h1>
-   <div id="visualization-content">
-      <p class="visualization-description p-main-page">A hatékony látással, a látás hatékonyságával.</p>
-      <p class="visualization-description p-main-page">Feltárjuk az összefüggéseket a felmerülő panaszok és a látórendszer működése között.</p>
-      <p class="visualization-description p-main-page">A jó látás, nem egyenlő a jó látásélességgel. Annál sokkal többről van szó.</p>
-   </div>
-</div>
-   
-   
-<div id="areas">
-   <img class="areas-image" src="assets/sample.jpg" alt="VT-gyerekeknek">      
-   <img class="areas-image" src="assets/sample.jpg" alt="VT-felnőtteknek">      
-   <img class="areas-image" src="assets/sample.jpg" alt="VT-sportolóknak">      
-</div>
-   
-   
-<div id="areas-buttons">
-   <a href="vt-gyerekeknek.html" id="areas-text1">VT gyerekeknek</a>
-   <a href="vt-felotteknek.html" id="areas-text2">VT felnőtteknek</a>
-   <a href="vt-sportoloknak.html" id="areas-text3">VT sportolóknak</a>
-</div>
-   
-   
-<div id="goals">
-   <div id="goals-content">
-      <h1 class="h1-main-page">Célunk:</h1>
-      <ul id="goals-ul">
-         <li class="goals-li">Rámutatni a rosszul működő részterületekre pl.: szemmozgások, fókuszálás, kétszemes
-             együttműködés.</li>
-         <li class="goals-li">Kideríteni, miért fárasztó gyermekének például az olvasás, a figyelem fenntartása,
-            miért kimerítő önnek a számítógépes tevékenység.</li>
-         <li class="goals-li">Elérni, hogy a terápia végére egy rugalmas és hatékony eszközzel dolgozhasson.</li>
-      </ul>
-      <h2 id="goal-h2">BÁRMILYEN IDŐSEK IS VAGYUNK, A VISION THERAPY SEGÍTHET!</h2>
-   </div>
-</div>
-   
-   
-<div id="main-staff-page">
-   <h1 class="h1-main-page staff-adress">Munkatársaink</h1>
-      <div class="main-staff-content">
-         <img class="main-staff-image" id="main-staff-image1" src="assets/domotor-image.jpg" alt="Kép - Dömötör Dóra">
-         <div class="main-staff-writing">
-            <h2 class="staff-name">Dömötör Dóra</h2>
-            <h3>a rendelő alapítója és tulajdonosa</h3>
-            <h3>Funkcionális-optometrista, gyógypedagógus (tanulásban akadályozottak szakirányon)</h3>
-            <div class="staff-text">
-               <p class=staff-paragraph>A diploma megszerzése (1997) óta, optometristaként, a látással foglalkozom.</p>
-               <p class=staff-paragraph>1999-ben bekapcsolódtam szakmám nemzetközi vérkeringésébe, így találkozhattam egy addig számomra ismeretlen gondolkodásmóddal. A funkcionális optometria (behavioural optometry)  szemlélete és probléma megközelítése eltért attól, amit itthon addig tanultam és láttam. Ez a modell ajtót nyitott olyan panaszok kezeléséhez, amiket a klasszikus megközelítéssel nem lehetett megoldani.</p>
-               <p class=staff-paragraph>A Vision Therapy vizsgálati és terápiás módszerének alapjait Dr.  Kellye Knueppel  neuro-optometrista centrumában, Milwaukee-ban (Wisconsin, USA) sajátítottam el egy fél éves tanulmányút során (2006)</p>
-            </div>
-         </div>
-      </div>
-   
-      <div class="main-staff-content">
-         <div class="main-staff-writing main-bekesi-writing">
-            <h2 class="staff-name">Békési Csilla</h2>
-            <h3 class="staff-h3">Vision Therapy terapeuta, óvodapedagógus, TSMT terapeuta</h3>
-            <div class="staff-text">
-               <p class=staff-paragraph>Békési Csilla vagyok. 2016-ban végeztem kétnyelvű óvodapedagógusként az ELTE Tanító és Óvóképző karán. Ebben az időszakban ismertem meg Dórát és a Vision Therapy módszert.</p>
-               <p class=staff-paragraph>Tudása, lelkesedése el kezdett átragadni rám. Terapeutájaként egyre több tapasztalatot szereztem. A módszer, annak alkalmazása és eredményessége folyamatosan motivál.</p>
-               <p class=staff-paragraph>“Minden mindennel összefügg.” Többek között ez a mondata inspirál, hogy segítő szakemberként tovább bővítsem tudásomat.Még 2017-ben elvégeztem Kulcsár Mihályné Stresszoldó tanfolyamát (~Technikák a tanítással, tanulással kapcsolatos pszichés gátlások oldására) és elsajátítottam a Metamorf masszázs gyakorlati és elméleti ismereteit.<br>Gyakran tapasztalom, hogy a nem megfelelően működő vizuális rendszer hátterében a stressz, a feszültség jelen van, mint akadályozó tényező. Ezek oldásával a terápia is célravezetőbb tud lenni.</p>
-            </div>
-         </div>
-         <img class="main-staff-image" id="main-staff-image2" src="assets/bekesi-image.jpg" alt="Kép - Békési Csilla">
-      </div>
-   
-      <div class="main-staff-content">
-         <img class="main-staff-image" id="main-staff-image3" src="assets/patkos-image.jpg" alt="Kép - Patkós Luca">
-         <div class="main-staff-writing">
-            <h2 class="staff-name">Patkós Luca</h2>
-            <h3 class="staff-h3">Vision Therapy terapeuta, óvodapedagógus, optometrista hallgató</h3>
-            <div class="staff-text">
-               <p class=staff-paragraph id="staff-paragraph16">2015 óta erősítem a Vision Therapy Centrum csapatát.<br>2016-ban az Eötvös Loránd Tudományegyetemen, óvodapedagógusként szereztem meg a diplomámat. Jelenleg a Semmelweis Egyetem optometrista hallgatója vagyok.</p>
-               <p class=staff-paragraph id="staff-paragrap17">A munkámban a gyerekek, emberek szeretete, a családok támogatása, a problémák felderítése, megoldások keresése, a szülőkkel való együttműködés vezérel.<br>Minden eset más kihívás, folyamatos tanulás nekem éppúgy, mint a pácienseknek elérni a megfelelő eredményt. Nagyon fontosnak tartom kihangsúlyozni a fejlesztés alatt, hogy teljes egészként tekintek az emberekre, nem csak a tüneteket figyelem, hanem keresem azok kiváltó okát is. A terápia egy igazi csapatmunka, így igyekszem mindig megtalálni a közös hangot, mind a gyerek, mind a felnőtt pácienseimmel.</p>
-            </div>
-         </div>
-      </div>
-   
-      <div class="main-staff-content" id="poloskei-content">
-         <div class="main-staff-writing main-bekesi-writing">
-            <h2 class="staff-name">Pölöskei Zsanett</h2>
-            <h3 class="staff-h3">Vision Therapy terapeuta, látszerész</h3>
-            <div class="staff-text">
-               <p class=staff-paragraph>Pölöskei Zsanett vagyok,1994-ben végeztem látszerész és optika-fotócikk eladóként.</p>
-               <p class=staff-paragraph>2016-ban kezdtem el dolgozni Vision Therapy terapeutaként, melyet megelőzött egy 1 éves tanulási folyamat.</p>
-               <p class=staff-paragraph>A rendelőben felnőttekkel és gyerekekkel is foglalkozom.<br>Mindig nagy öröm számomra, ha a pácienssel végzett közös munka során elérjük a kitűzött célt.<br>Két kislány édesanyja vagyok.</p>
-            </div>
-         </div>
-         <img class="main-staff-image" id="main-staff-image2" src="assets/poloskei-image.jpg" alt="Kép - Pölöskei Zsanett">
-      </div>
-   <a class=staff-button href="munkatarsaink.html">Bővebben</a>
-</div>
-   
-   
-   
-<div id="opinions">
-   <h1 class="h1-main-page" id="opinions-adress">Rólunk mondták</h1>
-   <div id="opinions-description">
-      <div class="customer">
-         <div class="customer-writing">
-            <h2 class="customer-name">8 éves fiú</h2>
-            <p class="customer-text">„Iskolában társainál lassabban dolgozott, szétszórt volt, így kezdtünk el kutakodni, mit is lehetne tenni. Ajánlották ezt a vizsgálatot, terápiát, így kerültünk ide. Négy hónapon keresztül szinte minden nap végeztük a feladott feladatokat, amik nagyon érdekesek. Szeret olvasni, sokkal összeszedettebb. A feladatmegoldásának tempója gyorsabb. Köszönjük szépen!"</p>
-         </div>
-      </div>
-   </div>
-</div>
-   
-   
-   
-<div id="connection">
-<h1 class="h1-main-page">Kapcsolat</h1>
-<div id="connection-description">
-<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.913897092185!2d19.014365215148466!3d47.49159070390978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc29d86318b5%3A0x618b12ea0d169377!2zQnVkYXBlc3QsIELDtnN6w7ZybcOpbnlpIMO6dCA0MCwgMTEyNg!5e0!3m2!1shu!2shu!4v1613585915283!5m2!1shu!2shu" width="500" height="400" aria-hidden="false" tabindex="0"></iframe>
-<div id="connection-writing">
-<p class="connection-text" id="enterprise-name">SZEMPÁTIA OPTOMETRIAI SZAKRENDELŐ</p>
-<p class="connection-text" id="adress">1126 Budapest, Böszörményi út 40. Fsz./4<br>Kaputelefon: 14</p>
-<p class="connection-text" id="email">dora@szempatia.com</p>
-<p class="connection-text" id="phone-number">+36 70 942 6018<br>+36 1 406 2648</p>
-<p class="connection-text" id="g-text"><b>Előzetes időpont egyeztetés szükséges!</b></p>
-</div>
-</div>
-</div>
-   
-   
-   
-<footer id="footer">
-<h1>Lábléc</h1>
+	</div>	
+	<div class="logo">
+		<img src="assets/logo-image.jpg" alt="Szempátia logo">
+	</div>
+</div>		
+<main>
+	<img class="main-image" src="assets/main-image.jpg" alt="Főoldali nyitókép idézettel">		
+	<div class="container1">
+		<div class="subcontainer1">
+			<h1>Mivel foglalkozunk?</h1>
+			<h2>A hatékony látással, a látás hatékonyságával.</h2>
+			<h2>A jó látás, nem egyenlő a jó látásélességgel. Annál sokkal többről van szó.</h2>
+			<h2>Feltárjuk az összefüggéseket a felmerülő panaszok és a látórendszer működése között.</h2>	
+		</div>
+		<div class="subcontainer2">
+			<div class="vt">
+				<img class="vt-image" src="assets/child-image.jpg" alt="Vision Therapy gyerekeknek">
+				<button class="vt-button"><a href="vision-therapy-gyerekeknek.html">VISION THERAPY GYEREKEKNEK</a></button>
+			</div>
+			<div class="vt">
+				<img class="vt-image" src="assets/adult-image.jpg" alt="Vision Therapy felnőtteknek">
+				<button class="vt-button"><a href="vision-therapy-felnotteknek.html">VISION THERAPY FELNŐTTEKNEK</a></button>
+				
+			</div>
+			
+			
+			<div class="vt">
+				
+				<img class="vt-image" src="assets/sport-image.jpg" alt="Vision Therapy sportolóknak">
+				<button class="vt-button"><a href="vision-therapy-sportoloknak.html">VISION THERAPY SPORTOLÓKNAK</a></button>
+				
+			</div>
+		
+		
+		</div>
+		
+	
+	</div>
+	
+	
+	
+	<div class="container2">
+		
+		
+		<h1>CÉLUNK:</h1>
+		
+		
+		<div class="subcontainer">
+			<img class="main-icon" src="assets/main-icon1.png" alt="Főoldali icon">
+			<h2 class=subh2>Rámutatni a rosszul működő részterületekre pl.: szemmozgások, fókuszálás, kétszemes együttműködés.</h2>
+		</div>
+		
+		<div class="subcontainer">
+			<img class="main-icon" src="assets/main-icon2.png" alt="Főoldali icon">
+			<h2 class=subh2>Kideríteni, miért fárasztó gyermekének például az olvasás, a figyelem fenntartása, miért <br>kimerítő önnek a számítógépes tevékenység.</h2>
+		</div>
+		
+		<div class="subcontainer">
+			<img class="main-icon" src="assets/main-icon3.png" alt="Főoldali icon">
+			<h2 id="subber">Elérni, hogy a terápia végére egy rugalmas és hatékony eszközzel dolgozhasson.</h2>
+		</div>
+		
+		
+		
+	<div class="subcontainer2">
+		
+		<p class="big-text">BÁRMILYEN IDŐSEK IS VAGYUNK;<br>A VISION THERAPY SEGÍTHET!</p>
+		
+	</div>
+	
+	</div>
+	
+	
+		
+	<div class="container3">
+	
+		<p class="opinions">„Iskolában társainál lassabban dolgozott, szétszórt volt,<br>így kezdtünk el kutakodni, mit is lehetne tenni.<br>Ajánlották ezt a vizsgálatot, terápiát, így kerültünk ide.<br>Négy hónapon keresztül szinte minden nap végeztük<br>a feladott feladatokat, amik nagyon érdekesek.<br>Szeret olvasni, sokkal összeszedettebb.<br>A feladatmegoldásának tempója gyorsabb.<br>Köszönjük szépen!"</p>
+	
+	</div>
+	
+	
+	
+	<div class="container4">
+		
+		
+		<h1>MUNKATÁRSAINK:</h1>
+		
+	
+		<div class="staff">
+			
+			<img class="staff-image" src="assets/domotor-image.png" alt="Dömötör Dóra">	
+			
+			<h2>Dömötör Dóra</h2>
+			<p>Funkcionális-optometrista,<br>gyógypedagógus</p>
+		
+		</div>
+		
+		
+		
+		
+		<div class="staff">
+		
+			<img class="staff-image" src="assets/bekesi-image.png" alt="Békési Csilla">	
+			
+			<h2>Békési Csilla</h2>
+			<p>Óvodapedagógus,<br>TSMT terapeuta</p>
+		
+		</div>
+		
+		
+		<div class="staff">
+		
+			<img class="staff-image" src="assets/patkos-image.png" alt="Patkós Luca">	
+			
+			<h2>Patkós Luca</h2>
+			<p>Óvodapedagógus,<br>optometrista hallgató</p>
+		
+		</div>
+		
+		
+		<div class="staff">
+		
+			<img class="staff-image" src="assets/poloskei-image.png" alt="Pölöskei Zsanett">	
+			
+			<h2>Pölöskei Zsanett</h2>
+			<p>Vision Therapy terapeuta,<br>látszerész</p>
+		
+		</div>
 
+		
+	</div>
+	
+	
+	
+	<div class="container5">
+		
+		
+		<h1>ELÉRHETŐSÉGEINK:</h1>
+		
+		
+		<img class="connection-image" src="assets/connection-image.png" alt="Elérhetőségeink">		
+		
+	
+		<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.9140831632817!2d19.014365215503897!3d47.49158707917717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc29d86318b5%3A0x618b12ea0d169377!2zQnVkYXBlc3QsIELDtnN6w7ZybcOpbnlpIMO6dCA0MCwgMTEyNg!5e0!3m2!1shu!2shu!4v1622796928156!5m2!1shu!2shu" width="35%" height="380rem;" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		
+
+	</div>
+	
+	
+	
+	<footer>		
+	<div class="text">	
+		<div class="first-column">
+			<nav><a href="index.html">Főoldal</a></nav>
+			<nav><a href="munkatarsak.html">Munkatársak</a></nav>
+			<nav><a href="elerhetosegek.html">Elérhetőségek</a></nav>
+			<nav><a href="arak.html">Árak</a></nav>
+			<nav class="last"><a href="impresszum.html">Impresszum</a></nav>
+		</div>
+		<div class="second-column">
+			<nav><a href="mivel-foglalkozunk.html">Vision Therapy módszer</a></nav>
+			<nav><a href="vision-therapy-gyerekeknek.html">Gyerekeknek</a></nav>
+			<nav><a href="vision-therapy-felnotteknek.html">Felnőtteknek</a></nav>
+			<nav><a href="vision-therapy-sportoloknak.html">Sportolóknak</a></nav>
+			<nav class="last"><a href="tudastar.html">Tudástár</a></nav>
+		</div>
+		<div><p class="copy">Copyright @ SZEMPATIA - VISION THERAPY CENTRUM - 20?? - 2021 - Minden jog fenntartva! | All rights reserved!</p></div>
+	</div>			
 </footer>
-   
-   
-   
+	
+</main>
+	
+
+
 </body>
+	
 </html>
